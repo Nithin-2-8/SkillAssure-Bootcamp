@@ -10,9 +10,8 @@ def main():
         salary = float(salary_str)
         
         print(f"\nChecking tax status for {name}...")
-    except ValueError:
-        print("Invalid name input")    
-    try:
+     
+    
         if salary > 300000:
             print("Result: You must pay tax.")
         else:
