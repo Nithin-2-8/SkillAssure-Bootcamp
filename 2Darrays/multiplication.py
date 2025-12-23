@@ -33,7 +33,7 @@ def main():
     # Initialize Result Matrix (Size: r1 x c2) with zeros
     result = [[0 for _ in range(c2)] for _ in range(r1)]
     
-    # Multiplication Logic (Triple Loop)
+    # Multiplication Logic 
     for i in range(r1):           # Iterate through Rows of A
         for j in range(c2):       # Iterate through Cols of B
             for k in range(c1):   # Iterate through common dimension

@@ -64,7 +64,7 @@ def main():
     print(f"Total Sunflower Sales: Rs. {total_sunflower_sales:,.2f}")
 
     #5. SUGARCANE CALCULATION 
-    # 45 tonne/acre, Rs. 4000/TONNE (Note the True flag)
+    # 45 tonne/acre, Rs. 4000/TONNE 
     total_sugarcane_sales = calculate_crop_sales(ACRES_PER_SEGMENT, 45, 4000, is_price_per_tonne=True)
     print(f"Total Sugarcane Sales: Rs. {total_sugarcane_sales:,.2f}")
 
@@ -76,7 +76,7 @@ def main():
                      total_sugarcane_sales)
     
     # Chemical Free Sales at Month 11
-    # Only Veggies (Month 6) + Sunflower (Month 10) are ready.
+    # Only vegetable + Sunflower  are ready.
     # Sugarcane (Month 14) is excluded.
     chem_free_sales_11_months = (total_tomato_sales + total_potato_sales + 
                                  total_cabbage_sales + total_sunflower_sales)
